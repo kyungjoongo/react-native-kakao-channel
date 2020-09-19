@@ -68,3 +68,7 @@ KakaoSDK.Channel
   .then(res => console.log(res))
   .catch(e => console.log(e));
 ```
+### IOS WORKAROUND..(하단과 같이 링킹으로 연동가능!)
+
+ -  const url=`http://pf.kakao.com/${kakaoChannelId}/chat`
+ -  await Linking.openURL(url);
